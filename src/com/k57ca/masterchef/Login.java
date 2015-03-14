@@ -40,7 +40,7 @@ public class Login extends Activity implements OnClickListener{
    // private static final String LOGIN_URL = "http://xxx.xxx.x.x:1234/webservice/login.php";
 
     //testing on Emulator:
-    private static final String LOGIN_URL = "http://masterchef.wc.lt/webservice/login.php";
+    private static final String LOGIN_URL = "http://31.170.165.35/webservice/login.php";
 
   //testing from a real server:
     //private static final String LOGIN_URL = "http://www.yourdomain.com/webservice/login.php";
@@ -116,7 +116,7 @@ public class Login extends Activity implements OnClickListener{
 				params.add(new BasicNameValuePair("username", username));
 				params.add(new BasicNameValuePair("password", password));
 				
-				Log.d("request", "starting");
+				Log.d("request", "starting" + username + password);
 				// getting product details by making HTTP request
 				JSONObject json = jsonParser.makeHttpRequest(LOGIN_URL, "POST", params);
 				
