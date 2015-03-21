@@ -2,6 +2,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/bgg"
    >
 
     <Button
@@ -11,7 +12,7 @@
         android:layout_alignLeft="@+id/login"
         android:layout_alignParentBottom="true"
         android:layout_alignRight="@+id/login"
-        android:layout_marginBottom="300dp"
+        android:layout_marginBottom="320dp"
         android:text="Register" />
 
     <Button
@@ -29,7 +30,7 @@
         android:layout_height="wrap_content"
         android:layout_above="@+id/login"
         android:layout_centerHorizontal="true"
-        android:ems="10"
+        android:ems="20"
         android:inputType="textPassword" >
 
         <requestFocus />
@@ -41,7 +42,7 @@
         android:layout_height="wrap_content"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="17dp"
+        android:layout_marginTop="20dp"
         android:gravity="center"
         android:text="Login"
         android:textAppearance="?android:attr/textAppearanceLarge"
@@ -53,7 +54,7 @@
         android:layout_height="wrap_content"
         android:layout_below="@+id/textView2"
         android:layout_centerHorizontal="true"
-        android:src="@drawable/arrowstars" />
+        android:src="@drawable/logo" />
 
     <TextView
         android:id="@+id/TextView01"
@@ -61,7 +62,7 @@
         android:layout_height="wrap_content"
         android:layout_above="@+id/password"
         android:layout_alignLeft="@+id/password"
-        android:layout_marginLeft="22dp"
+        android:layout_marginLeft="10dp"
         android:text="Password" />
 
     <EditText
@@ -70,7 +71,7 @@
         android:layout_height="wrap_content"
         android:layout_above="@+id/TextView01"
         android:layout_centerHorizontal="true"
-        android:ems="10" />
+        android:ems="20" />
 
     <TextView
         android:id="@+id/textView1"

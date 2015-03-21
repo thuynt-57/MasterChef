@@ -10,7 +10,7 @@
         android:layout_height="wrap_content"
         android:layout_below="@+id/textView2"
         android:layout_centerHorizontal="true"
-        android:src="@drawable/arrowstars" />
+        android:src="@drawable/logo" />
 
     <TextView
         android:id="@+id/textView1"
@@ -26,7 +26,7 @@
         android:layout_height="wrap_content"
         android:layout_alignLeft="@+id/textView1"
         android:layout_below="@+id/textView1"
-        android:ems="10" />
+        android:ems="20" />
 
     <TextView
         android:id="@+id/TextView01"
@@ -54,7 +54,7 @@
         android:layout_height="wrap_content"
         android:layout_below="@+id/TextView01"
         android:layout_centerHorizontal="true"
-        android:ems="10"
+        android:ems="20"
         android:inputType="textPassword" />
 
     <Button

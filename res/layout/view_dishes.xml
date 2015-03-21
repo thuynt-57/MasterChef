@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    
+    
+   	<TextView
+   	    android:id="@+id/allDishesText"
+   	    android:layout_width="wrap_content"
+   	    android:layout_height="wrap_content"
+   	    android:textSize="35dp"
+   	    android:textStyle="bold"
+   	    android:text="Danh sách món ăn" 
+   	    android:layout_gravity="center"
+   	    android:textColor="#ff0000"/>
+    
+    <GridView
+        android:id="@+id/dishes_view"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:numColumns="2"
+        android:verticalSpacing="10dp"
+        android:horizontalSpacing="0dp"
+        android:columnWidth="90dp"
+        android:stretchMode="columnWidth"
+        android:layout_below="@+id/allDishes"
+        android:gravity="center" />
+
+</LinearLayout>

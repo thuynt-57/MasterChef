@@ -102,7 +102,6 @@ public class Login extends Activity implements OnClickListener{
             pDialog.setCancelable(true);
             pDialog.show();
         }
-
 		@Override
 		protected String doInBackground(String... args) {
 			// TODO Auto-generated method stub
@@ -127,9 +126,9 @@ public class Login extends Activity implements OnClickListener{
 				success = json.getInt(TAG_SUCCESS);
 				if(success == 1) {
 					Log.d("Login Successful", json.toString());
-					//Intent i = new Intent(Login.this, ReadComments.class);
+					Intent i = new Intent(Login.this, DishesView.class);
 					finish();
-					//startAtivity(i);
+					startActivity(i);
 					return json.getString(TAG_MESSAGE);
 				} else {
 					Log.d("Login Failure", json.getString(TAG_MESSAGE));
