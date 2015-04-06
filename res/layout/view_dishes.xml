@@ -24,7 +24,7 @@
         android:horizontalSpacing="0dp"
         android:columnWidth="90dp"
         android:stretchMode="columnWidth"
-        android:layout_below="@+id/allDishes"
+        android:layout_below="@+id/allDishestText"
         android:gravity="center" />
 
 </LinearLayout>

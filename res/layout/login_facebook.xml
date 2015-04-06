@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_width="wrap_content"
+        android:layout_height="250dp"
+        android:background="@drawable/masterchef"
+        android:gravity="center" />
+
+    <TextView
+        android:id="@+id/tvFace"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:padding="5dp"
+        android:text="Sign in with Facebook"
+        android:textColor="@android:color/widget_edittext_dark"
+        android:textSize="25sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/editEmail"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:hint="Email or phone"
+        android:inputType="textPersonName"
+        android:textSize="15sp" />
+
+    <EditText
+        android:id="@+id/editPass"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:hint="Password"
+        android:inputType="textWebPassword"
+        android:textSize="15sp" />
+
+    <Button
+        android:id="@+id/btnContinue"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:text="Continue" />
+
+</LinearLayout>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    
+	<Spinner
+	    android:id="@+id/spinnerPage"
+	    android:layout_width="100dp"
+		android:layout_height="wrap_content" />
+
+	<EditText
+	    android:layout_below="@+id/spinnerPage"
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:layout_alignParentLeft="true"
+	    android:ems="10"
+	    android:hint="Bạn muốn chia sẻ gì về món ăn này?" />
+
+	<Spinner
+	    android:id="@+id/spinnerPrivacy"
+	    android:layout_width="100dp"
+	    android:layout_height="wrap_content"
+	    android:layout_alignParentBottom="true"
+	    android:layout_alignParentLeft="true"
+	    android:layout_marginBottom="20dp"
+	    android:layout_marginLeft="65dp" />
+
+	<Button
+	    android:id="@+id/btn_Share"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_alignBaseline="@+id/btn_Cancel"
+	    android:layout_alignBottom="@+id/btn_Cancel"
+	    android:layout_alignParentRight="true"
+	    android:layout_marginRight="14dp"
+	    android:text="Share" />
+
+	<Button
+	    android:id="@+id/btn_Cancel"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_alignTop="@+id/spinnerPrivacy"
+	    android:layout_toLeftOf="@+id/btn_Share"
+	    android:text="Cancel" />
+	
+</RelativeLayout>

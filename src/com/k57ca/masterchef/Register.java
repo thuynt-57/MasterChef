@@ -8,6 +8,7 @@ import org.json.JSONException;
 import org.json.JSONObject;
 import android.app.Activity;
 import android.app.ProgressDialog;
+import android.content.Intent;
 import android.os.AsyncTask;
 import android.os.Bundle;
 import android.util.Log;
@@ -37,7 +38,7 @@ public class Register extends Activity implements OnClickListener{
    // private static final String LOGIN_URL = "http://xxx.xxx.x.x:1234/webservice/register.php";
 
     //testing on Emulator:
-    private static final String LOGIN_URL = "http://masterchef.wc.lt/webservice/register.php";
+    private static final String REGISTER_URL = "http://masterchef.wc.lt/webservice/register.php";
 
   //testing from a real server:
     //private static final String LOGIN_URL = "http://www.yourdomain.com/webservice/register.php";
@@ -102,7 +103,7 @@ public class Register extends Activity implements OnClickListener{
 
                 //Posting user data to script
                 JSONObject json = jsonParser.makeHttpRequest(
-                       LOGIN_URL, "POST", params);
+                       REGISTER_URL, "POST", params);
 
                 // full json response
                 Log.d("Login attempt", json.toString());
@@ -111,7 +112,9 @@ public class Register extends Activity implements OnClickListener{
                 success = json.getInt(TAG_SUCCESS);
                 if (success == 1) {
                 	Log.d("User Created!", json.toString());
+                	Intent i = new Intent(Register.this, DishesView.class);
                 	finish();
+                	startActivity(i);
                 	return json.getString(TAG_MESSAGE);
                 }else{
                 	Log.d("Login Failure!", json.getString(TAG_MESSAGE));

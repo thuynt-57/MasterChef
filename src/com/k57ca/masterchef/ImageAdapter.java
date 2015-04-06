@@ -1,4 +1,5 @@
 package com.k57ca.masterchef;
+
 import android.content.Context;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -9,12 +10,13 @@ import android.widget.TextView;
 
 public class ImageAdapter extends BaseAdapter {
 	private Context context;
-	private final String[] dishName;
- 
-	public ImageAdapter(Context context, String[] dishName) {
-		this.context = context;
-		this.dishName = dishName;
+	private String[] dishes;
+	
+	public ImageAdapter (Context _context, String[] _dishes) {
+		this.context = _context;
+		this.dishes = _dishes;
 	}
+ 
  
 	public View getView(int position, View convertView, ViewGroup parent) {
  
@@ -33,13 +35,13 @@ public class ImageAdapter extends BaseAdapter {
 			// set value into textview
 			TextView textView = (TextView) gridView
 					.findViewById(R.id.grid_item_label);
-			textView.setText(dishName[position]);
+			textView.setText(dishes[position]);
  
 			// set image based on selected text
 			ImageView imageView = (ImageView) gridView
 					.findViewById(R.id.grid_item_image);
  
-			String dish = dishName[position];
+			String dish = dishes[position];
  
 			if (dish.equals("Nộm tép tươi")) {
 				imageView.setImageResource(R.drawable.nom_tep_tuoi);
@@ -66,7 +68,7 @@ public class ImageAdapter extends BaseAdapter {
  
 	@Override
 	public int getCount() {
-		return dishName.length;
+		return dishes.length;
 	}
  
 	@Override

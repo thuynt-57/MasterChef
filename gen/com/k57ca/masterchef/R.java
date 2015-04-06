@@ -23,43 +23,95 @@ public final class R {
     }
     public static final class drawable {
         public static final int back_ground=0x7f020000;
-        public static final int bgg=0x7f020001;
-        public static final int canh_trung_ca_chua=0x7f020002;
-        public static final int chan_gio_ham_ngu_vi_huong=0x7f020003;
-        public static final int ic_launcher=0x7f020004;
-        public static final int logo=0x7f020005;
-        public static final int luon_kho_xa_ot=0x7f020006;
-        public static final int nom_tep_tuoi=0x7f020007;
-        public static final int salad_susu=0x7f020008;
-        public static final int suon_ham_cocacola=0x7f020009;
-        public static final int suon_xao_chua_ngot=0x7f02000a;
+        public static final int bg=0x7f020001;
+        public static final int bgg=0x7f020002;
+        public static final int black_button=0x7f020003;
+        public static final int blue_gradient=0x7f020004;
+        public static final int button_default_bg=0x7f020005;
+        public static final int canh_trung_ca_chua=0x7f020006;
+        public static final int chan_gio_ham_ngu_vi_huong=0x7f020007;
+        public static final int favorite_add=0x7f020008;
+        public static final int ic_action_search=0x7f020009;
+        public static final int ic_content_copy=0x7f02000a;
+        public static final int ic_fav=0x7f02000b;
+        public static final int ic_launcher=0x7f02000c;
+        public static final int ic_search=0x7f02000d;
+        public static final int ic_share=0x7f02000e;
+        public static final int ic_social_share=0x7f02000f;
+        public static final int ic_sugg=0x7f020010;
+        public static final int linearlayout_bg=0x7f020011;
+        public static final int logo=0x7f020012;
+        public static final int logo_listfav=0x7f020013;
+        public static final int logo_login=0x7f020014;
+        public static final int logo_reg=0x7f020015;
+        public static final int luon_kho_xa_ot=0x7f020016;
+        public static final int masterchef=0x7f020017;
+        public static final int nom_tep_tuoi=0x7f020018;
+        public static final int post_background_style=0x7f020019;
+        public static final int post_border_style=0x7f02001a;
+        public static final int salad_susu=0x7f02001b;
+        public static final int share=0x7f02001c;
+        public static final int suon_ham_cocacola=0x7f02001d;
+        public static final int suon_xao_chua_ngot=0x7f02001e;
+        public static final int taskbar=0x7f02001f;
     }
     public static final class id {
-        public static final int TextView01=0x7f08000a;
-        public static final int action_settings=0x7f080010;
-        public static final int allDishes=0x7f08000f;
-        public static final int allDishesText=0x7f08000d;
-        public static final int cancelbutton=0x7f080002;
-        public static final int dishes_view=0x7f08000e;
-        public static final int grid_item_image=0x7f080003;
-        public static final int grid_item_label=0x7f080004;
-        public static final int imageView1=0x7f080009;
-        public static final int label=0x7f080005;
-        public static final int login=0x7f080007;
-        public static final int okbutton=0x7f080001;
-        public static final int password=0x7f080000;
-        public static final int register=0x7f080006;
-        public static final int textView1=0x7f08000c;
-        public static final int textView2=0x7f080008;
-        public static final int username=0x7f08000b;
+        public static final int LinearLayout2=0x7f080006;
+        public static final int TextView01=0x7f08000c;
+        public static final int action_copy=0x7f080028;
+        public static final int action_search=0x7f080027;
+        public static final int action_share=0x7f080029;
+        public static final int allDis=0x7f08001c;
+        public static final int allDishesText=0x7f080024;
+        public static final int allDishestText=0x7f080026;
+        public static final int btnContinue=0x7f080012;
+        public static final int btnFavor=0x7f08001e;
+        public static final int btnRecommendBDay=0x7f080016;
+        public static final int btnRecommendMGuest=0x7f080018;
+        public static final int btnRecommendNday=0x7f080013;
+        public static final int btnRecommendTet=0x7f080019;
+        public static final int btnRecommendVDay=0x7f080015;
+        public static final int btnRecommendWGuest=0x7f080017;
+        public static final int btnRecommendWeeken=0x7f080014;
+        public static final int btnShare=0x7f08001d;
+        public static final int btnSignUp=0x7f080001;
+        public static final int btnSingIn=0x7f080000;
+        public static final int btn_Cancel=0x7f080023;
+        public static final int btn_Share=0x7f080022;
+        public static final int dishes_view=0x7f080025;
+        public static final int editEmail=0x7f080010;
+        public static final int editPass=0x7f080011;
+        public static final int grid_item_image=0x7f080002;
+        public static final int grid_item_label=0x7f080003;
+        public static final int imageView1=0x7f080007;
+        public static final int label=0x7f080004;
+        public static final int login=0x7f080009;
+        public static final int logo=0x7f08000e;
+        public static final int n_day_recommendation_view=0x7f08001b;
+        public static final int normalDayText=0x7f08001a;
+        public static final int password=0x7f08000a;
+        public static final int register=0x7f080008;
+        public static final int spinnerPage=0x7f080020;
+        public static final int spinnerPrivacy=0x7f080021;
+        public static final int textView1=0x7f080005;
+        public static final int textView2=0x7f08000b;
+        public static final int tvFace=0x7f08000f;
+        public static final int tvName=0x7f08001f;
+        public static final int username=0x7f08000d;
     }
     public static final class layout {
         public static final int activity_main=0x7f030000;
         public static final int dish=0x7f030001;
-        public static final int login=0x7f030002;
-        public static final int register=0x7f030003;
-        public static final int view_dish=0x7f030004;
-        public static final int view_dishes=0x7f030005;
+        public static final int dish_guidance=0x7f030002;
+        public static final int display_list_meal=0x7f030003;
+        public static final int login=0x7f030004;
+        public static final int login_facebook=0x7f030005;
+        public static final int menu_recommendation=0x7f030006;
+        public static final int normal_day_recommendation=0x7f030007;
+        public static final int register=0x7f030008;
+        public static final int share_dish=0x7f030009;
+        public static final int share_window=0x7f03000a;
+        public static final int view_dishes=0x7f03000b;
     }
     public static final class menu {
         public static final int main=0x7f070000;
@@ -70,8 +122,35 @@ public final class R {
         public static final int Password=0x7f050002;
         public static final int SignupBtn=0x7f050004;
         public static final int Username=0x7f050001;
-        public static final int Welcome=0x7f050006;
+        public static final int action_copy=0x7f05000a;
+        /**  string ids for menu 
+         */
+        public static final int action_search=0x7f050009;
+        public static final int action_share=0x7f05000b;
         public static final int app_name=0x7f050000;
+        public static final int birth_day=0x7f05000f;
+        public static final int do_uong=0x7f050019;
+        public static final int men_guest=0x7f050012;
+        /**  string ids for recommendation module 
+ string ids for menu recommendation 
+         */
+        public static final int menu_recommendation=0x7f05000c;
+        public static final int mon_chinh=0x7f050017;
+        /**  string ids for labels 
+         */
+        public static final int mon_khai_vi=0x7f050016;
+        public static final int mon_phu=0x7f050018;
+        public static final int mon_trang_mieng=0x7f05001a;
+        public static final int normal_day=0x7f05000d;
+        public static final int password_textview=0x7f050007;
+        public static final int special_day=0x7f05000e;
+        public static final int submit=0x7f050008;
+        public static final int tet=0x7f050014;
+        public static final int username_textview=0x7f050006;
+        public static final int valentine=0x7f050010;
+        public static final int weeken=0x7f050015;
+        public static final int women_day=0x7f050011;
+        public static final int women_guest=0x7f050013;
     }
     public static final class style {
         /** 
@@ -95,10 +174,11 @@ public final class R {
     
  API 14 theme customizations can go here. 
          */
-        public static final int AppBaseTheme=0x7f060000;
+        public static final int AppBaseTheme=0x7f060001;
         /**  Application theme. 
  All customizations that are NOT specific to a particular API-level can go here. 
          */
-        public static final int AppTheme=0x7f060001;
+        public static final int AppTheme=0x7f060002;
+        public static final int DefaultButtonText=0x7f060000;
     }
 }

@@ -40,7 +40,7 @@ public class Login extends Activity implements OnClickListener{
    // private static final String LOGIN_URL = "http://xxx.xxx.x.x:1234/webservice/login.php";
 
     //testing on Emulator:
-    private static final String LOGIN_URL = "http://31.170.165.35/webservice/login.php";
+    private static final String LOGIN_URL = "http://masterchef.wc.lt/webservice/login.php";
 
   //testing from a real server:
     //private static final String LOGIN_URL = "http://www.yourdomain.com/webservice/login.php";
@@ -107,6 +107,7 @@ public class Login extends Activity implements OnClickListener{
 			// TODO Auto-generated method stub
 			// Check for success tag
 			int success;
+			Log.d("do in bg", "djhfy");
 			String username = user.getText().toString();
 			String password = pass.getText().toString();
 			try {
@@ -126,6 +127,12 @@ public class Login extends Activity implements OnClickListener{
 				success = json.getInt(TAG_SUCCESS);
 				if(success == 1) {
 					Log.d("Login Successful", json.toString());
+					// save user data -- How to use id instead of user name to be key
+					//SharedPreferences sp = PreferenceManager.getDefaultSharedPreferences(Login.this);
+					//Editor edit = sp.edit();
+					//edit.putString("username", username);
+					//edit.commit();
+					
 					Intent i = new Intent(Login.this, DishesView.class);
 					finish();
 					startActivity(i);

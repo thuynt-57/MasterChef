@@ -6,5 +6,47 @@
     <string name="LoginBtn">Login</string>
     <string name="SignupBtn">Register</string>
     <string name="LogoutBtn">Log Out</string>
-    <string name="Welcome">Welcome!</string>
+    
+    <string name="username_textview">Username:</string>
+    <string name="password_textview">Password:</string>
+    <string name="submit">Submit</string>
+    
+    <!-- string ids for menu -->
+    <string name="action_search">Search</string>
+    <string name="action_copy">Copy</string>
+    <string name="action_share">Share</string>
+      
+    <!-- string ids for recommendation module -->
+    <!-- string ids for menu recommendation -->
+    <string name="menu_recommendation">Gợi ý thực đơn</string>
+    <string name="normal_day">     Ngày thường     </string>
+    <string name="special_day">     Ngày đặc biệt   </string>
+    <string name="birth_day">      Sinh nhật       </string>
+    <string name="valentine">      Valentine       </string>
+    <string name="women_day">      8/3             </string>
+    <string name="men_guest">      Khách nam       </string>
+    <string name="women_guest">     Khách nữ        </string>
+    <string name="tet">         Tết          </string>
+    <string name="weeken">       Cuối tuần       </string>
+    
+    <!-- string ids for labels -->
+    <string name="mon_khai_vi">Món khai vị</string>
+    <string name="mon_chinh">Món chính</string>
+    <string name="mon_phu">Món phụ</string>
+    <string name="do_uong">Đồ uống</string> 
+    <string name="mon_trang_mieng">Món tráng miệng</string> 
+    
+    <style name="DefaultButtonText">
+	    <item name="android:layout_width">fill_parent</item>
+	    <item name="android:layout_height">wrap_content</item>
+	    <item name="android:textColor">#979797</item>
+	    <item name="android:gravity">center</item>
+	    <item name="android:layout_margin">3dp</item>
+	    <item name="android:textStyle">normal</item>
+	    <item name="android:textSize">20sp</item>
+	    <item name="android:shadowColor">#f9f9f9</item>
+	    <item name="android:shadowDx">1</item>
+	    <item name="android:shadowDy">1</item>
+	    <item name="android:shadowRadius">1</item>
+    </style>
 </resources>

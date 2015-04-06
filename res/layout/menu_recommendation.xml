@@ -1,0 +1,112 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".MainActivity" 
+
+    android:background="@drawable/bg">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:background="@drawable/linearlayout_bg"
+        android:orientation="vertical"
+        android:padding="10dp" >
+
+        <Button
+            android:id="@+id/btnRecommendNday"
+            style="@style/DefaultButtonText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:layout_marginBottom="100dp"
+            android:layout_marginTop="60dp"
+            android:background="@drawable/button_default_bg"
+            android:padding="10dp"
+            android:text="@string/normal_day" />
+
+        <Button
+            android:id="@+id/btnRecommendWeeken"
+            style="@style/DefaultButtonText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:layout_marginBottom="100dp"
+            android:layout_marginTop="60dp"
+            android:background="@drawable/button_default_bg"
+            android:padding="10dp"
+            android:text="@string/weeken" />
+
+        <Button
+            android:id="@+id/btnRecommendVDay"
+            style="@style/DefaultButtonText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:layout_marginBottom="100dp"
+            android:layout_marginTop="60dp"
+            android:background="@drawable/button_default_bg"
+            android:padding="10dp"
+            android:text="@string/valentine" />
+
+        <Button
+            android:id="@+id/btnRecommendBDay"
+            style="@style/DefaultButtonText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:layout_marginBottom="100dp"
+            android:layout_marginTop="60dp"
+            android:background="@drawable/button_default_bg"
+            android:padding="10dp"
+            android:text="@string/birth_day" />
+
+        <Button
+            android:id="@+id/btnRecommendWGuest"
+            style="@style/DefaultButtonText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:layout_marginBottom="40dp"
+            android:layout_marginTop="60dp"
+            android:background="@drawable/button_default_bg"
+            android:padding="10dp"
+            android:text="@string/women_guest" />
+
+        <Button
+            android:id="@+id/btnRecommendMGuest"
+            style="@style/DefaultButtonText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:layout_marginBottom="40dp"
+            android:layout_marginTop="60dp"
+            android:background="@drawable/button_default_bg"
+            android:padding="10dp"
+            android:text="@string/men_guest" />
+
+        <Button
+            android:id="@+id/btnRecommendTet"
+            style="@style/DefaultButtonText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:background="@drawable/button_default_bg"
+            android:padding="10dp"
+            android:text="@string/tet" />
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:src="@drawable/ic_sugg" />
+
+</RelativeLayout>
